@@ -14,3 +14,7 @@ module scan_dff (d, q, en, si, clk, rst);
 				q <= d;
 		end
 endmodule
+
+//some comments
+
+
