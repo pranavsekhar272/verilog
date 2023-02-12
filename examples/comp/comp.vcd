@@ -1,0 +1,62 @@
+$date
+	Fri Jan 13 11:55:33 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module comp_test $end
+$var wire 1 ! AltB $end
+$var wire 1 " AgtB $end
+$var wire 1 # AeqB $end
+$var reg 4 $ A [3:0] $end
+$var reg 4 % B [3:0] $end
+$scope module inst1 $end
+$var wire 4 & A [3:0] $end
+$var wire 4 ' B [3:0] $end
+$var reg 1 # AeqB $end
+$var reg 1 " AgtB $end
+$var reg 1 ! AltB $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx '
+bx &
+bx %
+bx $
+x#
+x"
+x!
+$end
+#10
+1!
+0"
+0#
+b1 %
+b1 '
+b0 $
+b0 &
+#15
+1#
+0!
+b1111 %
+b1111 '
+b1111 $
+b1111 &
+#20
+1"
+0#
+b11 %
+b11 '
+b1110 $
+b1110 &
+#25
+1#
+0"
+b11 $
+b11 &
+#30

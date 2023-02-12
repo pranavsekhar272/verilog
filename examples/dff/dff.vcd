@@ -1,0 +1,63 @@
+$date
+	Fri Jan 13 13:08:50 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module dff_test $end
+$var wire 1 ! qbar $end
+$var wire 1 " q $end
+$var reg 1 # clear $end
+$var reg 1 $ clock $end
+$var reg 1 % d $end
+$var reg 1 & preset $end
+$scope module inst $end
+$var wire 1 # clear $end
+$var wire 1 ' clear_b $end
+$var wire 1 $ clock $end
+$var wire 1 % d $end
+$var wire 1 & preset $end
+$var wire 1 ( preset_b $end
+$var wire 1 ! qbar $end
+$var reg 1 " q $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+x(
+x'
+x&
+x%
+0$
+x#
+x"
+x!
+$end
+#5
+0!
+1"
+1(
+0%
+0&
+#10
+1!
+0"
+1'
+0(
+0#
+1&
+1$
+#15
+0!
+1"
+0'
+1%
+1#
+#20
+0%
+0$
+#25

@@ -1,0 +1,61 @@
+$date
+	Fri Dec  9 11:25:09 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module test $end
+$var wire 1 ! Q $end
+$var reg 1 " CLK $end
+$var reg 1 # D $end
+$var reg 1 $ EN $end
+$var reg 1 % RST $end
+$var reg 1 & SI $end
+$scope module M $end
+$var wire 1 " clk $end
+$var wire 1 # d $end
+$var wire 1 $ en $end
+$var wire 1 % rst $end
+$var wire 1 & si $end
+$var reg 1 ! q $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+x&
+x%
+x$
+x#
+0"
+x!
+$end
+#5
+0!
+0%
+1"
+#10
+0&
+1#
+0$
+1%
+0"
+#15
+0#
+1"
+#20
+1$
+0"
+#25
+1!
+1&
+1#
+1"
+#30
+0#
+0$
+0"
+#34
